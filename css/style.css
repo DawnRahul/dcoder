@@ -1,0 +1,34 @@
+@viewport {
+    width: device-width;
+    zoom: 1;
+}
+
+.blog-footer {
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-bottom: 0px;
+    background-color: aquamarine;
+}
+.container {
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+.w-100 {
+    height: 400px;
+} 
+.highlight-text {
+    text-shadow: 2px 2px 4px blue;
+}
+
+@media (min-width: 780px){
+
+    .d-sm-block {
+        display: block !important;
+    }
+}
+
+@media (max-width: 576px){
+.d-sm-block {
+    display: block !important;
+}
